@@ -1,0 +1,462 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fall 2026 planner//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:McGill Fall 2026
+X-WR-TIMEZONE:America/Toronto
+BEGIN:VTIMEZONE
+TZID:America/Toronto
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:u-wnoref@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+TRANSP:TRANSPARENT
+SUMMARY:McGill: Last day to withdraw from a course (no refund\, W on transc
+ ript)
+END:VEVENT
+BEGIN:VEVENT
+UID:m262-ww6@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+TRANSP:TRANSPARENT
+SUMMARY:Due 23:59: MATH 262: WeBWorK 6
+DESCRIPTION:Time: 23:59\n\nWorth 1.1% of the course grade.\n\nSource: Outli
+ ne p.2 and myCourses WeBWorK page (they match)
+END:VEVENT
+BEGIN:VEVENT
+UID:m262-ww7@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+TRANSP:TRANSPARENT
+SUMMARY:Due 23:59: MATH 262: WeBWorK 7
+DESCRIPTION:Time: 23:59\n\nWorth 1.1% of the course grade.\n\nSource: Outli
+ ne p.2 and myCourses WeBWorK page (they match)
+END:VEVENT
+BEGIN:VEVENT
+UID:m262-ww8@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+TRANSP:TRANSPARENT
+SUMMARY:Due 23:59: MATH 262: WeBWorK 8
+DESCRIPTION:Time: 23:59\n\nWorth 1.1% of the course grade.\n\nSource: Outli
+ ne p.2 and myCourses WeBWorK page (they match)
+END:VEVENT
+BEGIN:VEVENT
+UID:m262-ww9@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+TRANSP:TRANSPARENT
+SUMMARY:Due 23:59: MATH 262: WeBWorK 9
+DESCRIPTION:Time: 23:59\n\nWorth 1.1% of the course grade.\n\nSource: Outli
+ ne p.2 and myCourses WeBWorK page (they match)
+END:VEVENT
+BEGIN:VEVENT
+UID:m262-mid@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+TRANSP:TRANSPARENT
+SUMMARY:MATH 262: Midterm [time or room TBA]
+DESCRIPTION:Time: Evening\, time TBA\n\nDeferred midterm about one week lat
+ er. Details coming on myCourses.\n\nWorth 30% of the course grade.\n\nSour
+ ce: Outline p.1
+END:VEVENT
+BEGIN:VEVENT
+UID:m262-final@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;TZID=America/Toronto:20261209T090000
+DTEND;TZID=America/Toronto:20261209T120000
+SUMMARY:MATH 262: Final exam [tentative]
+DESCRIPTION:Formal exam\, downtown campus. Room not listed yet.\n\nWorth 60
+ % of the course grade.\n\nSource: McGill December 2026 tentative final exa
+ m schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:m263-final@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;TZID=America/Toronto:20261216T090000
+DTEND;TZID=America/Toronto:20261216T120000
+SUMMARY:MATH 263: Final exam
+DESCRIPTION:Confirmed by the professor. Formal exam\, downtown campus. Room
+  not listed yet. Your last exam of the term.\n\nWorth 50% of the course gr
+ ade.\n\nSource: McGill December 2026 tentative final exam schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:c208-a2@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+TRANSP:TRANSPARENT
+SUMMARY:Due 23:59: COMP 208: Assignment 2: loops\, strings and lists
+DESCRIPTION:Time: 23:59\n\nPosted Oct 11. Use only material from lectures 1
+  to 10 (up to and including lists); anything beyond can cost up to 50%. La
+ te: minus 10 of 100 points per day\, one minute late counts as a full day\
+ , nothing accepted after 4 days. Submit on Ed Lessons; only your last subm
+ ission counts\, and a SyntaxError in it means 0.\n\nWorth 5% of the course
+  grade.\n\nSource: A2 PDF on myCourses\, p.2
+END:VEVENT
+BEGIN:VEVENT
+UID:c208-mt2@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;TZID=America/Toronto:20261102T183000
+DTEND;TZID=America/Toronto:20261102T203000
+SUMMARY:COMP 208: Midterm 2 [time or room TBA]
+DESCRIPTION:Room announced the week before.\n\nWorth 18% of the course grad
+ e.\n\nSource: Outline p.10\, Ed #6
+END:VEVENT
+BEGIN:VEVENT
+UID:c208-a3@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+TRANSP:TRANSPARENT
+SUMMARY:Due: COMP 208: Assignment 3 [estimated]
+DESCRIPTION:Estimated from lecture 21.\n\nWorth 5% of the course grade.\n\n
+ Source: Outline p.4
+END:VEVENT
+BEGIN:VEVENT
+UID:c208-a4@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+TRANSP:TRANSPARENT
+SUMMARY:Due: COMP 208: Assignment 4 [estimated]
+DESCRIPTION:Estimated from lecture 25.\n\nWorth 5% of the course grade.\n\n
+ Source: Outline p.4
+END:VEVENT
+BEGIN:VEVENT
+UID:c208-test@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;TZID=America/Toronto:20261027T120500
+DTEND;TZID=America/Toronto:20261027T122000
+SUMMARY:COMP 208: In person programming test (booked)
+DESCRIPTION:ENGTR 2110 (Trottier). 15 minutes\, one attempt only. Taking it
+  once is enough: don't book another slot. To reschedule (for example if si
+ ck)\, use the confirmation email or a private Ed post.\n\nWorth 3% of the 
+ course grade.\n\nSource: Your booking confirmation; Ed announcement on Oct
+ ober bookings
+END:VEVENT
+BEGIN:VEVENT
+UID:c208-q5@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+TRANSP:TRANSPARENT
+SUMMARY:Due 23:59: COMP 208: Quiz 5 closes
+DESCRIPTION:Time: Closes 23:59 (open Oct 27\, 16:00 to Nov 2\, 23:59)\n\nDo
+ ne at home\, two attempts\, pass at 5/10.\n\nWorth 0.5% of the course grad
+ e.\n\nSource: myCourses Quizzes list
+END:VEVENT
+BEGIN:VEVENT
+UID:c208-q6@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+TRANSP:TRANSPARENT
+SUMMARY:Due 23:59: COMP 208: Quiz 6 closes
+DESCRIPTION:Time: Closes 23:59 (open Nov 5\, 16:00 to Nov 9\, 23:59)\n\nDon
+ e at home\, two attempts\, pass at 5/10.\n\nWorth 0.5% of the course grade
+ .\n\nSource: myCourses Quizzes list
+END:VEVENT
+BEGIN:VEVENT
+UID:c208-q7@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+TRANSP:TRANSPARENT
+SUMMARY:Due 23:59: COMP 208: Quiz 7 closes
+DESCRIPTION:Time: Closes 23:59 (open Nov 12\, 15:00 to Nov 16\, 23:59)\n\nD
+ one at home\, two attempts\, pass at 5/10.\n\nWorth 0.5% of the course gra
+ de.\n\nSource: myCourses Quizzes list
+END:VEVENT
+BEGIN:VEVENT
+UID:c208-q8@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+TRANSP:TRANSPARENT
+SUMMARY:Due 23:59: COMP 208: Quiz 8 closes
+DESCRIPTION:Time: Closes 23:59 (open Nov 17\, 16:00 to Nov 23\, 23:59)\n\nD
+ one at home\, two attempts\, pass at 5/10.\n\nWorth 0.5% of the course gra
+ de.\n\nSource: myCourses Quizzes list
+END:VEVENT
+BEGIN:VEVENT
+UID:c208-q9@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+TRANSP:TRANSPARENT
+SUMMARY:Due 23:59: COMP 208: Quiz 9 closes
+DESCRIPTION:Time: Closes 23:59 (open Nov 24\, 17:00 to Dec 1\, 23:59)\n\nDo
+ ne at home\, two attempts\, pass at 5/10.\n\nWorth 0.5% of the course grad
+ e.\n\nSource: myCourses Quizzes list
+END:VEVENT
+BEGIN:VEVENT
+UID:c208-final@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;TZID=America/Toronto:20261207T140000
+DTEND;TZID=America/Toronto:20261207T170000
+SUMMARY:COMP 208: Final exam [tentative]
+DESCRIPTION:Formal exam\, downtown campus. Room not listed yet. Counts at l
+ east 36%\, up to 72% depending on your midterms.\n\nWorth 36% of the cours
+ e grade.\n\nSource: McGill December 2026 tentative final exam schedule
+END:VEVENT
+BEGIN:VEVENT
+UID:b210-hw2@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 210: Homework 2 report
+DESCRIPTION:Time: Time not stated\, assume 23:59\n\nIndividual report\, max
+  5 pages\, 1 inch margins\, Arial 12\, single spaced. 5 questions\, 4 poin
+ ts each: 1) surfactants\, surface tension and capillary action from an ele
+ ctrical point of view; 2) network robustness by network type\, and why bio
+ logy uses scale-free networks; 3) light-dependent photosynthesis\, output 
+ of PSI (photosystem I) and PSII (photosystem II); 4) equivalent circuit of
+  the plasma membrane with a drawing (ion channels\, lipid bilayer\, ion pu
+ mps); 5) how membrane potentials are measured\, with figures. File name La
+ stNameFirstName_B210_HW2. No AI use allowed in BIEN 210.\n\nWorth 20% of t
+ he course grade.\n\nSource: HW2 sheet (due Oct 23\, later than the outline
+ 's Oct 20)
+END:VEVENT
+BEGIN:VEVENT
+UID:b210-tp@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+TRANSP:TRANSPARENT
+SUMMARY:Due 23:59: BIEN 210: Team presentation slides due
+DESCRIPTION:Time: 23:59\n\nPowerPoint named Topic_Group#_B210_TP. 15 points
+  team\, 15 individual.\n\nWorth 30% of the course grade.\n\nSource: Outlin
+ e p.5 and p.6
+END:VEVENT
+BEGIN:VEVENT
+UID:b210-q2@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;TZID=America/Toronto:20261201T130500
+DTEND;TZID=America/Toronto:20261201T140500
+SUMMARY:BIEN 210: Quiz 2 (closed book\, on paper)
+DESCRIPTION:Worth 10% of the course grade.\n\nSource: Outline p.4 and p.6
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-e2r@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Essay 2 revision
+DESCRIPTION:Worth 20% of the course grade.
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-e2pg@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Essay 2 peer grading [sources disagree]
+DESCRIPTION:Slides say Nov 2\, schedule PDF says Nov 4. Planned for Nov 2 t
+ o be safe.
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-e3@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Essay 3 submission (likely Mathematics)
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-e3r@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Essay 3 revision
+DESCRIPTION:Worth 20% of the course grade.
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-e3pg@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Essay 3 peer grading
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-debts@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Everything outstanding due ("all debts due")
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-q9@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Quiz 9 (expected): Biological fluids [estimated]
+DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
+ pening around the end of class and closing within 1 to 3 hours. Two attemp
+ ts. Numbering shifted by one because the Oct 5 lecture was cancelled with 
+ no quiz.\n\nSource: Pattern from Quizzes 1 to 7 on myCourses
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-q10@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Quiz 10 (expected): Surface phenomena [estimated]
+DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
+ pening around the end of class and closing within 1 to 3 hours. Two attemp
+ ts. Numbering shifted by one because the Oct 5 lecture was cancelled with 
+ no quiz.\n\nSource: Pattern from Quizzes 1 to 7 on myCourses
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-q11@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Quiz 11 (expected): Motion at the microscale [estima
+ ted]
+DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
+ pening around the end of class and closing within 1 to 3 hours. Two attemp
+ ts. Numbering shifted by one because the Oct 5 lecture was cancelled with 
+ no quiz.\n\nSource: Pattern from Quizzes 1 to 7 on myCourses
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-q12@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Quiz 12 (expected): Bioinformatics [estimated]
+DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
+ pening around the end of class and closing within 1 to 3 hours. Two attemp
+ ts. Numbering shifted by one because the Oct 5 lecture was cancelled with 
+ no quiz.\n\nSource: Pattern from Quizzes 1 to 7 on myCourses
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-q13@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Quiz 13 (expected): Biological signals and imaging [
+ estimated]
+DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
+ pening around the end of class and closing within 1 to 3 hours. Two attemp
+ ts. Numbering shifted by one because the Oct 5 lecture was cancelled with 
+ no quiz.\n\nSource: Pattern from Quizzes 1 to 7 on myCourses
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-q14@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Quiz 14 (expected): Biocomputation [estimated]
+DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
+ pening around the end of class and closing within 1 to 3 hours. Two attemp
+ ts. Numbering shifted by one because the Oct 5 lecture was cancelled with 
+ no quiz.\n\nSource: Pattern from Quizzes 1 to 7 on myCourses
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-q15@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Quiz 15 (expected): Biomanufacturing [estimated]
+DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
+ pening around the end of class and closing within 1 to 3 hours. Two attemp
+ ts. Numbering shifted by one because the Oct 5 lecture was cancelled with 
+ no quiz.\n\nSource: Pattern from Quizzes 1 to 7 on myCourses
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-q16@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Quiz 16 (expected): Biopharmaceuticals [estimated]
+DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
+ pening around the end of class and closing within 1 to 3 hours. Two attemp
+ ts. Numbering shifted by one because the Oct 5 lecture was cancelled with 
+ no quiz.\n\nSource: Pattern from Quizzes 1 to 7 on myCourses
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-q17@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Quiz 17 (expected): Perspectives in MedTech [estimat
+ ed]
+DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
+ pening around the end of class and closing within 1 to 3 hours. Two attemp
+ ts. Numbering shifted by one because the Oct 5 lecture was cancelled with 
+ no quiz.\n\nSource: Pattern from Quizzes 1 to 7 on myCourses
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-q18@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Quiz 18 (expected): Biomolecular motors [estimated]
+DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
+ pening around the end of class and closing within 1 to 3 hours. Two attemp
+ ts. Numbering shifted by one because the Oct 5 lecture was cancelled with 
+ no quiz.\n\nSource: Pattern from Quizzes 1 to 7 on myCourses
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-q19@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Quiz 19 (expected): Theta surface [estimated]
+DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
+ pening around the end of class and closing within 1 to 3 hours. Two attemp
+ ts. Numbering shifted by one because the Oct 5 lecture was cancelled with 
+ no quiz.\n\nSource: Pattern from Quizzes 1 to 7 on myCourses
+END:VEVENT
+BEGIN:VEVENT
+UID:b200-q20@fall2026-planner
+DTSTAMP:20261018T213518Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+TRANSP:TRANSPARENT
+SUMMARY:Due: BIEN 201: Quiz 20 (expected): Point of care devices [estimated
+ ]
+DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
+ pening around the end of class and closing within 1 to 3 hours. Two attemp
+ ts. Numbering shifted by one because the Oct 5 lecture was cancelled with 
+ no quiz.\n\nSource: Pattern from Quizzes 1 to 7 on myCourses
+END:VEVENT
+END:VCALENDAR

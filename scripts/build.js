@@ -1,5 +1,5 @@
 // Usage: node build.js <planner index.html> <edits.json> <progress.json> <from YYYY-MM-DD> <out.ics>
-// Builds a calendar of open deadlines and exams from the Fall 2026 planner page and its saved data.
+// Builds a calendar of open deadlines, exams and your own events from the Fall 2026 planner page and its saved data.
 const fs=require('fs');
 const [page,edPath,donePath,from,out]=process.argv.slice(2);
 const html=fs.readFileSync(page,'utf8');
@@ -31,7 +31,8 @@ function add(uid,sum,d,s,e,desc,loc){const L=['BEGIN:VEVENT','UID:'+uid+'@fall20
   L.push('SUMMARY:'+esc(sum));if(loc)L.push('LOCATION:'+esc(loc));if(desc)L.push('DESCRIPTION:'+esc(desc));L.push('END:VEVENT');ev.push(...L);}
 let nItems=0,nClass=0;
 for(const i of ITEMS){
-  if(!i.d||i.d<from||done[i.id]||(i.k==='event'&&i.id!=='u-wnoref')||/^prep-/.test(i.id))continue;
+  // Course info events are skipped, but your own events (added in the planner) are included.
+  if(!i.d||i.d<from||done[i.id]||(i.k==='event'&&i.id!=='u-wnoref'&&!i.mine)||/^prep-/.test(i.id))continue;
   const code=COURSES[i.c]?COURSES[i.c].code:'';
   const tm=i.time||'';let s=null,e=null;
   const r=tm.match(/^(\d{1,2}:\d{2})(?: to (\d{1,2}:\d{2}))?/);

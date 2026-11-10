@@ -22,30 +22,8 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:u-ait@fall2026-planner
-DTSTAMP:20261109T171020Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-TRANSP:TRANSPARENT
-SUMMARY:Due: McGill: Complete the Academic Integrity Tutorial in Minerva
-DESCRIPTION:Mandatory. Minerva\, Student Menu\, Academic Integrity Tutorial
- . If not done\, a hold blocks adding or dropping courses for the winter te
- rm until you complete it. Skip this if you already did it.\n\nSource: Emai
- l from no_reply@mcgill.ca\, Oct 20 (deadline 3 weeks later)
-END:VEVENT
-BEGIN:VEVENT
-UID:m262-ww6@fall2026-planner
-DTSTAMP:20261109T171020Z
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-TRANSP:TRANSPARENT
-SUMMARY:Due 23:59: MATH 262: WeBWorK 6
-DESCRIPTION:Time: 23:59\n\nWorth 1.1% of the course grade.\n\nSource: Outli
- ne p.2 and myCourses WeBWorK page (they match)
-END:VEVENT
-BEGIN:VEVENT
 UID:m262-ww7@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 TRANSP:TRANSPARENT
@@ -55,7 +33,7 @@ DESCRIPTION:Time: 23:59\n\nWorth 1.1% of the course grade.\n\nSource: Outli
 END:VEVENT
 BEGIN:VEVENT
 UID:m262-ww8@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 TRANSP:TRANSPARENT
@@ -65,7 +43,7 @@ DESCRIPTION:Time: 23:59\n\nWorth 1.1% of the course grade.\n\nSource: Outli
 END:VEVENT
 BEGIN:VEVENT
 UID:m262-ww9@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 TRANSP:TRANSPARENT
@@ -75,7 +53,7 @@ DESCRIPTION:Time: 23:59\n\nWorth 1.1% of the course grade.\n\nSource: Outli
 END:VEVENT
 BEGIN:VEVENT
 UID:m262-final@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;TZID=America/Toronto:20261209T090000
 DTEND;TZID=America/Toronto:20261209T120000
 SUMMARY:MATH 262: Final exam [tentative]
@@ -85,7 +63,7 @@ DESCRIPTION:Formal exam\, downtown campus. Room not listed yet.\n\nWorth 60
 END:VEVENT
 BEGIN:VEVENT
 UID:m263-ww5@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 TRANSP:TRANSPARENT
@@ -96,7 +74,7 @@ DESCRIPTION:Time: 23:45\n\nCloses Tue Nov 17 at 23:45 (another new time: no
 END:VEVENT
 BEGIN:VEVENT
 UID:m263-final@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;TZID=America/Toronto:20261216T090000
 DTEND;TZID=America/Toronto:20261216T120000
 SUMMARY:MATH 263: Final exam
@@ -106,7 +84,7 @@ DESCRIPTION:Confirmed by the professor. Formal exam\, downtown campus. Room
 END:VEVENT
 BEGIN:VEVENT
 UID:c208-a3@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 TRANSP:TRANSPARENT
@@ -116,7 +94,7 @@ DESCRIPTION:Estimated from lecture 21.\n\nWorth 5% of the course grade.\n\n
 END:VEVENT
 BEGIN:VEVENT
 UID:c208-a4@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 TRANSP:TRANSPARENT
@@ -126,7 +104,7 @@ DESCRIPTION:Estimated from lecture 25.\n\nWorth 5% of the course grade.\n\n
 END:VEVENT
 BEGIN:VEVENT
 UID:c208-q7@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 TRANSP:TRANSPARENT
@@ -137,7 +115,7 @@ DESCRIPTION:Time: Closes 23:59 (open Nov 12\, 15:00 to Nov 16\, 23:59)\n\nD
 END:VEVENT
 BEGIN:VEVENT
 UID:c208-q8@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 TRANSP:TRANSPARENT
@@ -148,7 +126,7 @@ DESCRIPTION:Time: Closes 23:59 (open Nov 17\, 16:00 to Nov 23\, 23:59)\n\nD
 END:VEVENT
 BEGIN:VEVENT
 UID:c208-q9@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 TRANSP:TRANSPARENT
@@ -159,7 +137,7 @@ DESCRIPTION:Time: Closes 23:59 (open Nov 24\, 17:00 to Dec 1\, 23:59)\n\nDo
 END:VEVENT
 BEGIN:VEVENT
 UID:c208-final@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;TZID=America/Toronto:20261207T140000
 DTEND;TZID=America/Toronto:20261207T170000
 SUMMARY:COMP 208: Final exam [tentative]
@@ -168,26 +146,8 @@ DESCRIPTION:Formal exam\, downtown campus. Room not listed yet. Counts at l
  e grade.\n\nSource: McGill December 2026 tentative final exam schedule
 END:VEVENT
 BEGIN:VEVENT
-UID:b210-tp@fall2026-planner
-DTSTAMP:20261109T171020Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
-TRANSP:TRANSPARENT
-SUMMARY:Due 23:59: BIEN 210: Team presentation slides due (extended from No
- v 5)
-DESCRIPTION:Time: 23:59\n\nDeadline extended to Mon Nov 9; the presentation
- s start the next day\, Tue Nov 10. PowerPoint named Topic_Group#_B210_TP. 
- 15 points team\, 15 individual. Talk is 20 minutes plus 5 minutes of quest
- ions where every member must answer. Expected outline: introduction\, prob
- lem statement\, literature review\, hypothesis (specific\, testable\, nove
- l)\, proposed approach using course concepts\, expected results\, impact a
- nd future work\, conclusion.\n\nWorth 30% of the course grade.\n\nSource: 
- Outline p.5 and p.6; myCourses announcement Oct 27; extension to Nov 9 rep
- orted by you\, Nov 3
-END:VEVENT
-BEGIN:VEVENT
 UID:b210-q2@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;TZID=America/Toronto:20261201T130500
 DTEND;TZID=America/Toronto:20261201T140500
 SUMMARY:BIEN 210: Quiz 2 (closed book\, on paper)
@@ -195,7 +155,7 @@ DESCRIPTION:Worth 10% of the course grade.\n\nSource: Outline p.4 and p.6
 END:VEVENT
 BEGIN:VEVENT
 UID:b200-e3bonus@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 TRANSP:TRANSPARENT
@@ -207,7 +167,7 @@ DESCRIPTION:Time: 12:00\n\nTeams that submit the Mathematics draft by Nov 1
 END:VEVENT
 BEGIN:VEVENT
 UID:b200-e3@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 TRANSP:TRANSPARENT
@@ -221,7 +181,7 @@ DESCRIPTION:Time: 12:00\n\nUpload to the Mathematics folder. At most 4500 w
 END:VEVENT
 BEGIN:VEVENT
 UID:b200-e3r@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 TRANSP:TRANSPARENT
@@ -231,7 +191,7 @@ DESCRIPTION:Time: 12:00\n\nWorth 20% of the course grade.\n\nSource: myCour
 END:VEVENT
 BEGIN:VEVENT
 UID:b200-e3pg@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 TRANSP:TRANSPARENT
@@ -239,27 +199,15 @@ SUMMARY:Due: BIEN 201: Essay 3 peer grading
 END:VEVENT
 BEGIN:VEVENT
 UID:b200-debts@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 TRANSP:TRANSPARENT
 SUMMARY:Due: BIEN 201: Everything outstanding due ("all debts due")
 END:VEVENT
 BEGIN:VEVENT
-UID:b200-q15@fall2026-planner
-DTSTAMP:20261109T171020Z
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
-TRANSP:TRANSPARENT
-SUMMARY:Due: BIEN 201: Quiz 15 (expected): Biomanufacturing [estimated]
-DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
- pening around the end of class and closing within 1 to 3 hours. Two attemp
- ts. One quiz per lecture so far\, numbered by lecture.\n\nSource: Pattern 
- from Quizzes 1 to 7 on myCourses
-END:VEVENT
-BEGIN:VEVENT
 UID:b200-q16@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 TRANSP:TRANSPARENT
@@ -271,7 +219,7 @@ DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
 END:VEVENT
 BEGIN:VEVENT
 UID:b200-q17@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 TRANSP:TRANSPARENT
@@ -284,7 +232,7 @@ DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
 END:VEVENT
 BEGIN:VEVENT
 UID:b200-q18@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 TRANSP:TRANSPARENT
@@ -296,7 +244,7 @@ DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
 END:VEVENT
 BEGIN:VEVENT
 UID:b200-q19@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 TRANSP:TRANSPARENT
@@ -309,7 +257,7 @@ DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
 END:VEVENT
 BEGIN:VEVENT
 UID:b200-q20@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 TRANSP:TRANSPARENT
@@ -322,7 +270,7 @@ DESCRIPTION:Time: Usually 17:00 to 18:00\n\nOne quiz per lecture so far\, o
 END:VEVENT
 BEGIN:VEVENT
 UID:my-sportmed-shoulder@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;TZID=America/Toronto:20261110T091500
 DTEND;TZID=America/Toronto:20261110T101500
 SUMMARY:Sport medicine doctor appointment (left shoulder)
@@ -339,7 +287,7 @@ DESCRIPTION:McGill Sport Medicine Clinic\, 475 Avenue des Pins Ouest\, 3rd
 END:VEVENT
 BEGIN:VEVENT
 UID:my-padel-1112@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;TZID=America/Toronto:20261112T100000
 DTEND;TZID=America/Toronto:20261112T113000
 SUMMARY:Padel (FVR Cathcart\, court 1)
@@ -347,7 +295,7 @@ DESCRIPTION:FVR Cathcart\, Padel court 1. Booked and paid\, group of 4.
 END:VEVENT
 BEGIN:VEVENT
 UID:my-padel-1116a@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;TZID=America/Toronto:20261116T090000
 DTEND;TZID=America/Toronto:20261116T103000
 SUMMARY:Padel (FVR Cathcart\, court 2)
@@ -357,7 +305,7 @@ DESCRIPTION:FVR Cathcart\, Padel court 2. Booked and paid\, group of 4. You
 END:VEVENT
 BEGIN:VEVENT
 UID:my-padel-1116b@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;TZID=America/Toronto:20261116T100000
 DTEND;TZID=America/Toronto:20261116T113000
 SUMMARY:Padel (FVR Cathcart\, court 1)
@@ -366,10 +314,54 @@ DESCRIPTION:FVR Cathcart\, Padel court 1. Booked and paid\, group of 4. Ove
 END:VEVENT
 BEGIN:VEVENT
 UID:my-padel-1119@fall2026-planner
-DTSTAMP:20261109T171020Z
+DTSTAMP:20261110T115206Z
 DTSTART;TZID=America/Toronto:20261119T090000
 DTEND;TZID=America/Toronto:20261119T103000
 SUMMARY:Padel (FVR Cathcart\, court 1)
 DESCRIPTION:FVR Cathcart\, Padel court 1. Booked and paid\, group of 4.
+END:VEVENT
+BEGIN:VEVENT
+UID:my-eval-bien200@fall2026-planner
+DTSTAMP:20261110T115206Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+TRANSP:TRANSPARENT
+SUMMARY:Due 23:59: BIEN 201: Course evaluation (Mercury)
+DESCRIPTION:Time: 23:59\n\nMercury course evaluation (anonymous). Open it f
+ rom the Mercury pop up on the myCourses home page\, or from the Mercury em
+ ail. About 5 minutes.
+END:VEVENT
+BEGIN:VEVENT
+UID:my-eval-math262@fall2026-planner
+DTSTAMP:20261110T115206Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+TRANSP:TRANSPARENT
+SUMMARY:Due 23:59: MATH 262: Course evaluation (Mercury)
+DESCRIPTION:Time: 23:59\n\nMercury course evaluation (anonymous). Open it f
+ rom the Mercury pop up on the myCourses home page\, or from the Mercury em
+ ail. About 5 minutes.
+END:VEVENT
+BEGIN:VEVENT
+UID:my-eval-comp208@fall2026-planner
+DTSTAMP:20261110T115206Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+TRANSP:TRANSPARENT
+SUMMARY:Due 23:59: COMP 208: Course evaluation (Mercury)
+DESCRIPTION:Time: 23:59\n\nMercury course evaluation (anonymous). Open it f
+ rom the Mercury pop up on the myCourses home page\, or from the Mercury em
+ ail. About 5 minutes.
+END:VEVENT
+BEGIN:VEVENT
+UID:my-eval-math263@fall2026-planner
+DTSTAMP:20261110T115206Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+TRANSP:TRANSPARENT
+SUMMARY:Due 23:59: MATH 263: Course evaluation (Mercury)
+DESCRIPTION:Time: 23:59\n\nMercury course evaluation (anonymous). Open it f
+ rom the Mercury pop up on the myCourses home page\, or from the Mercury em
+ ail. About 5 minutes.
 END:VEVENT
 END:VCALENDAR
